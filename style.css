@@ -4,8 +4,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, rgb(80, 55, 88) 60%, rgb(148, 95, 196) 100%);
-    color: white;
+    background-color: white;
+    color: black;
     position: sticky;
     top: 0;
     box-shadow: 0 2px 12px rgba(80, 55, 88, 0.15);
@@ -41,7 +41,7 @@ nav {
 
 .navLinks a {
     text-decoration: none;
-    color: wheat;
+    color: black;
     font-weight: 500;
     font-size: 1.1em;
     letter-spacing: 0.5px;
@@ -49,7 +49,7 @@ nav {
 }
 
 .navLinks a:hover {
-    color: #fff;
+    color: violet;
 }
 
 .username {
@@ -62,7 +62,7 @@ nav {
 
 .username:hover {
     transform: translateY(-2px) scale(1.08);
-    color: wheat;
+    color: gold;
 }
 
 
