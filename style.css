@@ -8,7 +8,6 @@ nav {
     color: black;
     position: sticky;
     top: 0;
-    box-shadow: 0 2px 12px rgba(80, 55, 88, 0.15);
     z-index: 10;
 }
 
@@ -20,7 +19,6 @@ nav {
     margin: 0 24px;
     border-radius: 50%;
     border: 2px solid #fff;
-    box-shadow: 0 2px 8px rgba(80, 55, 88, 0.2);
 }
 
 .navLinks ul {
@@ -71,7 +69,6 @@ nav {
     display: flex;
     min-height: 80vh;
     background: linear-gradient(120deg, #f3e7fa 0%, #e3f0ff 100%);
-    box-shadow: 0 4px 24px rgba(80, 55, 88, 0.07);
 }
 
 .book {
@@ -85,17 +82,13 @@ nav {
 .service {
     background: #fff;
     border-radius: 24px;
-    box-shadow: 0 4px 24px rgba(80, 55, 88, 0.13);
     padding: 40px 36px;
     margin: 40px 0 40px 40px;
     text-align: center;
     max-width: 500px;
-    transition: box-shadow 0.3s;
 }
 
-.service:hover {
-    box-shadow: 0 8px 32px rgba(80, 55, 88, 0.18);
-}
+
 
 .service h1 {
     font-size: 3em;
@@ -121,16 +114,14 @@ nav {
     color: white;
     border: none;
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(148, 95, 196, 0.13);
     cursor: pointer;
-    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    transition: background 0.2s, transform 0.2s;
 }
 
 .service button:hover {
     background: linear-gradient(90deg, rgb(95, 72, 103), rgb(148, 95, 196));
     color: wheat;
     transform: scale(1.06);
-    box-shadow: 0 4px 16px rgba(148, 95, 196, 0.18);
 }
 
 .pic {
@@ -146,7 +137,6 @@ nav {
     max-width: 90%;
     max-height: 90%;
     border-radius: 24px;
-    box-shadow: 0 8px 32px rgba(80, 55, 88, 0.18);
     object-fit: cover;
 }
 
